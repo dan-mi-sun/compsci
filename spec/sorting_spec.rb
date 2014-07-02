@@ -15,7 +15,6 @@ describe "Sorting Algorithms" do
 
   describe "Quick Sort" do
     it "should sort it" do
-      pending "Need to implement quick_sort"
       expect(@jumbled.quick_sort).to eq(@sorted)
     end
   end
