@@ -24,7 +24,6 @@ describe BinaryTree do
 
   describe "Searching" do
     before do
-      pending "TODO - remove me and complete the methods..."
     end
 
     context "nodes" do

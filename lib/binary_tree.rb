@@ -19,15 +19,46 @@ class BinaryTree
   end
 
   def search(node = self.root)
+
   end
 
-  def nodes(node = self.root)
+  def nodes(node = self.root, results = [])
+    if node.left
+      nodes(node.left, results)
+    end
+    results << node
+    if node.right
+      nodes(node.right, results)
+    end
+    results
   end
 
-  def leaf_nodes(node = self.root)
+  def leaf_nodes(node = self.root, results = [])
+    if node.left
+      leaf_nodes(node.left, results)
+    end
+
+    if !node.left && !node.right
+    results << node
+    end
+
+    if node.right
+      leaf_nodes(node.right, results)
+    end
+    results
   end
 
-  def include?(name)
+  def include?(name, node = self.root)
+    if node.left
+      include?(name, node.left)
+    end
+
+    if node.right
+      include?(name, node.right)
+    end
+    if node.data == name 
+      return true
+    end
   end
 
   def find(name)
