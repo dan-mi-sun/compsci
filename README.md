@@ -1,10 +1,9 @@
-# Computer Science
+# We Got Coders Week 11 Coursework
 
-# TODO
+## Computer Science
 
-* Write a program that uses a recusive algorithm that calculates 25! (factorial). Start by using the test provided to get factorial of 5 working, then make the tests pass.
-* Fibonacci sequence - get the test running and re-implement using an iterative rather than recurisve approach. What are the pros and cons of each?
-* Get the binary tree test to pass. Use recursion to solve the problems.
-* Use Nokogiri to obtain the HTML DOM for the NASDAQ: http://finance.yahoo.com/actives?e=o
-* Convert the relevant part of the page into a binary tree, using the stock price and stock name as the data
-* Write a search function that returns the stocks in order of price
+### Brief
+https://github.com/dan-mi-sun/compsci/blob/sorting/README.md
+
+### Aims
+To look at different branches of Computer Science; Polymorphism, Recursion, Trees, Algorithms, Sorting, Graphs, Cryptography, Concurrency.
